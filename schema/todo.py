@@ -7,5 +7,5 @@ def individual_todo(todo) -> dict:
     }
 
 
-def list_todo(todos) -> list:
+def list_serial(todos) -> list:
     return [individual_todo(todo) for todo in todos]
