@@ -6,3 +6,4 @@ class Job(BaseModel):
     company: str
     skills: list[str]
     experience: str
+    more_details: str

@@ -5,6 +5,7 @@ def individual_job(job) -> dict:
         "company": job["company"],
         "skills": job["skills"],
         "experience": job["experience"],
+        "more_details": job["more_details"]
     }
 
 
