@@ -47,7 +47,7 @@ def test_proxies(proxies, max_workers=10):
 
 
 if __name__ == "__main__":
-    # Example list of proxies (replace with your own)
+    print("Fetching proxies...\n")
     proxies = fetch_free_proxies()
     print("Testing proxies...\n")
     working_proxies = test_proxies(proxies)
